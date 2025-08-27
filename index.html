@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">MyPortfolio</div>
+  <ul class="nav-link">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#project">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  <div class="hero">
+    <div  class="hero-text">
+      <div class="hero-image">
+        <img src="/images/profile.jpg" alt="My Photo">
+      </div>
+      <h1>I'm Anurag Yadav</h1>
+      <h2>Aspiring Software Developer</h2>
+      <p>
+        I’m passionate about building modern web applications and solving problems 
+          using Java, React, and Data Structures & Algorithms.
+      </p>
+      <a href="/images/cv.pdf" class="btn">Download CV</a>
+    </div>
+    
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <h2>
+      About me
+    </h2>
+    <p>
+      Hello! I'm Anurag Yadav, a passionate developer who loves learning new technologies 
+      and solving real-world problems. I enjoy working with Java, React, and exploring 
+      Data Structures & Algorithms.
+    </p>
+
+    <h3>Interests</h3>
+    <ul>
+      <li>Web Development</li>
+      <li>Open Source Contribution</li>
+      <li>Machine Learning</li>
+      <li>Problem Solving</li>
+    </ul>
+  </div>
+</section>
+
+<section class="skills">
+  <div class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <img src="images/html.png" alt="HTML Logo" />
+        <p>HTML</p>
+      </div>
+      <div class="skill-item">
+        <img src="images/css.png" alt="CSS Logo" />
+        <p>CSS</p>
+      </div>
+      <div class="skill-item">
+        <img src="images/js.png" alt="JavaScript Logo" />
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-item">
+        <img src="images/react.png" alt="React Logo" />
+        <p>React</p>
+      </div>
+      <div class="skill-item">
+        <img src="images/java.png" alt="Java Logo" />
+        <p>Java</p>
+      </div>
+      <div class="skill-item">
+        <img src="images/git.png" alt="Git Logo" />
+        <p>Git</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="projects">
+    <h2>My Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project-item">
+      <h3>Interactive Quiz App</h3>
+      <p>
+        A web-based quiz application where users can answer multiple-choice questions, 
+        track scores, and get instant feedback.
+      </p>
+      <a href="https://github.com/YadavAnnurag/quiz-app" target="_blank">GitHub</a>
+      <a href="https://yadavannurag.github.io/quiz-app/" target="_blank">Live Demo</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-item">
+      <h3>Portfolio Website</h3>
+      <p>
+        A personal portfolio website to showcase my projects, skills, and contact details.
+      </p>
+      <a href="https://github.com/YadavAnnurag/quiz-app" target="_blank">GitHub</a>
+      <a href="https://portfolio-demo.com" target="_blank">Live Demo</a>
+    </div>
+
+    <!-- Add more projects here -->
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations or just a friendly hello </p>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:anuragyadavit26@gmail.com">anuragyadavit26.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anurag-yadav-58530825a/" target="_blank">linkedin.com/in/Anurag Yadav</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/YadavAnnurag" target="_blank">github.com/YadavAnnurag</a></p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="footer">
+    <p>© 2025 Anurag. All Rights Reserved.</p>
+
+    <!-- Quick Links -->
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
