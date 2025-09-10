@@ -46,6 +46,7 @@ nav .logo {
   font-weight: bold;
   color: var(--color-text);
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Menu */
@@ -439,6 +440,10 @@ nav ul li a:hover {
 .contact-form button:hover {
   background: var(--color-text);
   color: var(--color-bg);
+}
+.formMessage{
+    background: var(--color-bg);
+  color: var(--color-text);
 }
 
 

@@ -2,21 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
   </head>
 <body>
 
 <nav class="navbar">
-  <div class="logo">MyPortfolio</div>
+  <div id= "logo" class="logo">Anurag Yadav</div>
   <ul class="nav-link">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#project">Projects</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -33,7 +34,7 @@
         I’m passionate about building modern web applications and solving problems 
           using Java, React, and Data Structures & Algorithms.
       </p>
-      <a href="/images/cv.pdf" class="btn">Download CV</a>
+      <a href="cv.docx" class="btn">Download CV</a>
     </div>
     
   </div>
@@ -60,7 +61,7 @@
   </div>
 </section>
 
-<section class="skills">
+<section id="skills">
   <div class="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
@@ -132,13 +133,13 @@
 
     <!-- Contact Info -->
     <div class="contact-info">
-      <p><strong>Email:</strong> <a href="mailto:anuragyadavit26@gmail.com">anuragyadavit26.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:anuragyadavit26@gmail.com">anuragyadavit26@gmail.com</a></p>
       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anurag-yadav-58530825a/" target="_blank">linkedin.com/in/Anurag Yadav</a></p>
       <p><strong>GitHub:</strong> <a href="https://github.com/YadavAnnurag" target="_blank">github.com/YadavAnnurag</a></p>
     </div>
 
     <!-- Contact Form -->
-    <form class="contact-form">
+    <form id="contactForm" class="contact-form" >
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
 
@@ -149,6 +150,7 @@
       <textarea id="message" name="message" rows="5" required></textarea>
 
       <button type="submit">Send Message</button>
+      <div id="formMessage"></div>
     </form>
   </div>
 </section>
