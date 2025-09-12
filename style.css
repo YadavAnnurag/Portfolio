@@ -481,3 +481,155 @@ nav ul li a:hover {
 }
 
 
+
+
+
+
+
+/* Add these mobile-responsive rules to your existing CSS */
+
+/* Mobile Navigation - Add hamburger menu functionality */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+/* Mobile Styles - Apply to screens 768px and smaller */
+@media (max-width: 768px) {
+  
+  /* Navigation */
+  nav {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-toggle {
+    display: block;
+  }
+  
+  nav ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    background: var(--color-bg);
+    padding: 1rem 0;
+    border-top: 1px solid var(--color-accent);
+  }
+  
+  nav ul.active {
+    display: flex;
+  }
+  
+  nav ul li {
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 1rem;
+    min-height: 90vh;
+  }
+  
+  .hero h1 {
+    font-size: 2rem; /* Smaller on mobile */
+  }
+  
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+  
+  .hero img {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* About Section */
+  .about {
+    padding: 3rem 1rem;
+  }
+  
+  .about h2 {
+    font-size: 1.5rem;
+  }
+  
+  .about .Interests {
+    gap: 0.5rem;
+  }
+
+  /* Skills Grid - Stack on mobile */
+  .skills {
+    padding: 3rem 1rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    gap: 1rem;
+  }
+  
+  .skill-item {
+    padding: 1rem;
+  }
+
+  /* Projects */
+  .projects {
+    padding: 3rem 1rem;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 3rem 1rem;
+  }
+  
+  .contact-form {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 1.5rem 1rem;
+  }
+  
+  .footer-nav {
+    gap: 0.8rem;
+  }
+}
+
+/* Extra small screens - phones in portrait */
+@media (max-width: 480px) {
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.1rem;
+  }
+  
+  /* Skills grid - single column on very small screens */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Make buttons full width on small screens */
+  .hero .btn,
+  .contact-form button {
+    width: 100%;
+  }
+  
+  /* Smaller padding everywhere */
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    padding: 2rem 0.5rem;
+  }
+}
+
+
