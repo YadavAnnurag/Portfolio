@@ -481,13 +481,6 @@ nav ul li a:hover {
 }
 
 
-
-
-
-
-
-/* Add these mobile-responsive rules to your existing CSS */
-
 /* Mobile Navigation - Add hamburger menu functionality */
 .nav-toggle {
   display: none;
@@ -498,10 +491,10 @@ nav ul li a:hover {
   color: var(--color-text);
 }
 
-/* Mobile Styles - Apply to screens 768px and smaller */
+
 @media (max-width: 768px) {
   
-  /* Navigation */
+
   nav {
     padding: 1rem;
     flex-wrap: wrap;
@@ -530,14 +523,14 @@ nav ul li a:hover {
     text-align: center;
   }
 
-  /* Hero Section */
+
   .hero {
     padding: 1rem;
     min-height: 90vh;
   }
   
   .hero h1 {
-    font-size: 2rem; /* Smaller on mobile */
+    font-size: 2rem; 
   }
   
   .hero h2 {
@@ -549,7 +542,7 @@ nav ul li a:hover {
     height: 120px;
   }
 
-  /* About Section */
+  
   .about {
     padding: 3rem 1rem;
   }
@@ -562,13 +555,13 @@ nav ul li a:hover {
     gap: 0.5rem;
   }
 
-  /* Skills Grid - Stack on mobile */
+  
   .skills {
     padding: 3rem 1rem;
   }
   
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
   
@@ -576,12 +569,12 @@ nav ul li a:hover {
     padding: 1rem;
   }
 
-  /* Projects */
+ 
   .projects {
     padding: 3rem 1rem;
   }
 
-  /* Contact */
+ 
   .contact {
     padding: 3rem 1rem;
   }
@@ -591,7 +584,7 @@ nav ul li a:hover {
     padding: 0 1rem;
   }
 
-  /* Footer */
+  
   #footer {
     padding: 1.5rem 1rem;
   }
@@ -601,7 +594,7 @@ nav ul li a:hover {
   }
 }
 
-/* Extra small screens - phones in portrait */
+
 @media (max-width: 480px) {
   
   .hero h1 {
@@ -612,18 +605,18 @@ nav ul li a:hover {
     font-size: 1.1rem;
   }
   
-  /* Skills grid - single column on very small screens */
+  
   .skills-grid {
     grid-template-columns: 1fr;
   }
   
-  /* Make buttons full width on small screens */
+ 
   .hero .btn,
   .contact-form button {
     width: 100%;
   }
   
-  /* Smaller padding everywhere */
+  
   .about,
   .skills,
   .projects,
