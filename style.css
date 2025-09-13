@@ -295,7 +295,7 @@ nav ul li a:hover {
   margin: 0.5rem auto 0;
 }
 
-/* Project Items */
+
 .project-item {
   border: 2px solid var(--color-text);
   padding: 1.5rem;
@@ -631,5 +631,6 @@ nav ul li a:hover {
     padding: 2rem 0.5rem;
   }
 }
+
 
 
